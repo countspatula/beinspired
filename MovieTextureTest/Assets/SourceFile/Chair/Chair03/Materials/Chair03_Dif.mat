@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Chair03_Dif
+  m_Shader: {fileID: 4800000, guid: 400a16de57a637f468dab1f38afbe96f, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 15101d446175eda45b37ae077713b98e, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: e6f01dea4a834394491dbc85ff8b37d0, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Cube
+        second:
+          m_Texture: {fileID: 8900000, guid: 65a7d442f1932344384c29c6fecc89c6, type: 2}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Spec_Gloss_Reflec_Masks
+        second:
+          m_Texture: {fileID: 2800000, guid: 28be3961c8a547d409bd9ecb73ef0cb5, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Reflection
+        second: 1
+      data:
+        first:
+          name: _Shininess
+        second: 2.64642024
+      data:
+        first:
+          name: _Gloss
+        second: .634615421
+      data:
+        first:
+          name: _FrezPow
+        second: 1.13461542
+      data:
+        first:
+          name: _FrezFalloff
+        second: 3.03846169
+      data:
+        first:
+          name: _EdgeAlpha
+        second: .596153855
+      data:
+        first:
+          name: _Metalics
+        second: .980769217
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .985074639, g: .956286311, b: .911561608, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: .865671635, g: .589191556, b: .284250349, a: 1}

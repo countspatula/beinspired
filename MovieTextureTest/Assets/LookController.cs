@@ -14,7 +14,6 @@ public class LookController : MonoBehaviour {
 	}
     void OnTriggerEnter(Collider col)
     {
-
         Debug.Log("play");
         col.gameObject.GetComponent<MediaPlayerCtrl>().Play();
     }

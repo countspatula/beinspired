@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Cabinet01_Dif
+  m_Shader: {fileID: 4800000, guid: 93eec0fb919f12e4e942a602fdd70c42, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: a9c50dec5c2beff4c96fbab97ea36990, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 38471d521e7af954d80ac78f6b283410, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Cube
+        second:
+          m_Texture: {fileID: 8900000, guid: 65a7d442f1932344384c29c6fecc89c6, type: 2}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Spec_Gloss_Reflec_Masks
+        second:
+          m_Texture: {fileID: 2800000, guid: 7200404b06b7f7a4db18ab91475fc1a9, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Reflection
+        second: .442307681
+      data:
+        first:
+          name: _Cutoff
+        second: .423076928
+      data:
+        first:
+          name: _Shininess
+        second: 2.2928915
+      data:
+        first:
+          name: _Gloss
+        second: .865384638
+      data:
+        first:
+          name: _FrezPow
+        second: .346153855
+      data:
+        first:
+          name: _FrezFalloff
+        second: 0
+      data:
+        first:
+          name: _Metalics
+        second: .807692289
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: .972535849, b: .954332829, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: .358208954, g: .312446743, b: .261973709, a: 1}
